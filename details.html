@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix APK</title>
+    <link rel="stylesheet" href="details.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="movieDetailsContainer" class="animate__animated animate__fadeIn">
+        <h1 id="movieTitle"></h1>
+        <img id="moviePoster" src="" alt="Movie Poster">
+        <div id="movieInfo">
+            <p><b>Language:</b> <span id="movieLanguage"></span></p>
+            <p><b>IMDb:</b> <span id="movieIMDb"></span></p>
+            <p><b>Genres:</b> <span id="movieGenres"></span></p>
+        </div>
+        <p id="movieDescription"></p>
+
+        <a href="index.html"><button id="backToHomeButton" onclick="changeButtonColor()">Back to Home</button></a>
+
+        <script src="details.js"></script>
+    </div>
+</body>
+
+</html>
